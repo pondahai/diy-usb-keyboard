@@ -1,1 +1,1 @@
-![](Printing Print Schematic.jpg)  
+![](Schematic.jpg)  

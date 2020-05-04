@@ -1,1 +1,1 @@
-![](Schematic.jpg)  
+![](Schematic.png)  

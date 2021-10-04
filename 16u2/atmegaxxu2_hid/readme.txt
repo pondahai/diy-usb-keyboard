@@ -36,6 +36,14 @@ sudo brew install minicom
 
 
 命令列燒錄16u2的指令
+將UNO用USB接電腦
+可直接在命令列下達以下命令
+
+先清空
 sudo dfu-programmer atmega16u2 erase
+
+燒錄這裡的serial轉usb鍵盤程式
 sudo dfu-programmer atmega16u2 flash Arduino-serialusbkeyboard.hex
+
+如果要復原原本的UNO功能，則執行以下命令
 sudo dfu-programmer atmega16u2 flash Arduino-COMBINED-dfu-usbserial-atmega16u2-Uno-Rev3.hex --suppress-bootloader-mem
